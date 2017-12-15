@@ -4,12 +4,19 @@ panoramic_stitching
 ## Algorithm Principle
 >* Detecting matching points and generating descriptors with SIFT, then output the good-match pairs of points in Mat format.  
 >* Found random 4 points and store those random number in vector—`idx`
->* In corresponding matching points to compute a homography by DLT. Using homography to compute the outlier proportion—e, then using e to compute the N which is the iteration times then do sample_count ++ , finally terminate when N > sample_count. 
+>* In corresponding matching points to compute a homography by DLT. Using homography to compute the outlier proportion—`e`, then using `e` to compute the `N` which is the iteration times then do `sample_count ++` , finally terminate when `N` > `sample_count`. 
 >* Taking one of the image as the standard coordinate and computing the homography for all other images which transform their coordinate to standard coordinate. 
->* Compute the maximum value and minimum value of X and Y and using that to determine the final panorama Mat’s size.  
+>* Compute the maximum value and minimum value of `X` and `Y` and using that to determine the final panorama Mat’s size.  
 >* For every pixel in panorama (initialize as a black Mat), take the maximum value in every position among all the images as the corresponding pixel value in the panorama Mat. 
 
 ## Result
+### mountain panorama with 3 pics
+![](https://github.com/kong931780511/panoramic_stitching/data/result1.png)
+![](https://github.com/kong931780511/panoramic_stitching/data/result2.png)
+### church panorama with 8 pics
+![](https://github.com/kong931780511/panoramic_stitching/data/result3.png)
+### houses panorana with 8 pics
+![](https://github.com/kong931780511/panoramic_stitching/data/result4.png)
 
 ## Conclusion
  
