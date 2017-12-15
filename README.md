@@ -1,7 +1,7 @@
 # panoramic_stitching
 panoramic_stitching
 
-##Algorithm Principle
+## Algorithm Principle
 >* Detecting matching points and generating descriptors with SIFT, then output the good-match pairs of points in Mat format.  
 >* Found random 4 points and store those random number in vector—idx 
 >* In corresponding matching points to compute a homography by DLT. Using homography to compute the outlier proportion—e, then using e to compute the N which is the iteration times then do sample_count ++ , finally terminate when N > sample_count. 
