@@ -1,5 +1,5 @@
 # panoramic_stitching
-panoramic_stitching
+If the camera center is fixed, or if the scene is planar, different images of the same scene are related by a homography. In this project, I will implement an algorithm to calculate the homography between two images. Several images of each scene will be provided. My program will generate image mosaics according to these estimated homographies.
 
 ## Algorithm Principle
 >* Detecting matching points and generating descriptors with SIFT, then output the good-match pairs of points in Mat format.  
