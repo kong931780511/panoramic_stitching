@@ -11,12 +11,12 @@ panoramic_stitching
 
 ## Result
 ### mountain panorama with 3 pics
-![](https://github.com/kong931780511/panoramic_stitching/data/result1.png)
-![](https://github.com/kong931780511/panoramic_stitching/data/result2.png)
+![](https://github.com/kong931780511/panoramic_stitching/raw/master/data/result1.png)
+![](https://github.com/kong931780511/panoramic_stitching/raw/master/data/result2.png)
 ### church panorama with 8 pics
-![](https://github.com/kong931780511/panoramic_stitching/data/result3.png)
+![](https://github.com/kong931780511/panoramic_stitching/raw/master/data/result3.png)
 ### houses panorana with 8 pics
-![](https://github.com/kong931780511/panoramic_stitching/data/result4.png)
+![](https://github.com/kong931780511/panoramic_stitching/raw/master/data/result4.png)
 
 ## Conclusion
  
